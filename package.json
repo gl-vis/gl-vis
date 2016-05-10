@@ -2,9 +2,10 @@
   "name": "gl-vis",
   "version": "1.0.0",
   "description": "WebGL chart rendering engine",
-  "main": "index.js",
+  "main": "glvis.js",
   "scripts": {
-    "test": "babel-node test/index.js"
+    "test": "standard && babel-node test/index.js",
+    "start": "budo example/simple.js --open"
   },
   "repository": {
     "type": "git",

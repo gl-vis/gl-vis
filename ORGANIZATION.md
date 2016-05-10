@@ -7,6 +7,7 @@ The goal of this project is to consolidate a bunch of fractured efforts in gl-vi
 Some high level goals are:
 
 * Support animations
+* Stereo/VR rendering
 * Reduce overhead when updating and uploading data
 * Reduce bundle size
 * Improve performance
@@ -27,6 +28,7 @@ Design concepts:
 * Retained mode
 * Low level interfaces, do as little parsing as possible
 * Specialized, fast and simple interfaces over generic and easy
+* Keep rendering pure (data down, events up)
 * Use assertions everywhere
 * Reuse data sources when possible
 * Render only when screen changes
